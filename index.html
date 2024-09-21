@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Keiku.Box</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="icon/keiku.jpg" class="logo-img">
+            <h1 class="logo-t">Keiku.Box</h1>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="picture.html">picture</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <button class="btn" onclick="redirinstagram()">Follow Saya</button>
+    </header>
+    <div class="container">
+        <div class="wrap">
+            <p class="title">Welcome To Keiku.Box</p>
+            <p class="deskripsi">The Most Delicious Cake Shop</p>
+            <img src=" icon/cake1.jpg" class="img">
+        </div>
+    </div>
+    <div class="content">
+        <div class="wrap1">
+            <p class="title">Berbagai Macam Kue Kami Sediakan</p>
+            <p class="deskripsi">Cipta Rasa yang Menarik</p>
+            <div class="mt">
+            <button class="btn" id="contact" onclick="redirwhatsapp()">Mari Hubungi Kami</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card">
+                 <div class="card-item">
+                    <img src="icon/delivery.png" class="icon">
+                    <p class="card-title">Jasa Delivery</p>
+                    <p class="card-deskripsi">Jasa pengiriman cepat dan harga ongkir yang terjangkau</p>
+                </div>
+                <div class="card-item">
+                    <img src="icon/best-price.png" class="icon">
+                    <p class="card-title">Harga Terjangkau</p>
+                    <p class="card-deskripsi">Kue menarik dengan harga yang terjangkau lho!!</p>
+                 </div>
+                <div class="card-item">
+                    <img src="icon/hot-deal.png" class="icon">
+                    <p class="card-title">Promo Menarik</p>
+                    <p class="card-deskripsi">Banyak promo-promo menarik yang bikin tertarik</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p class="title">&copy; 2023 - 2024 Keiku.Box Website </p> 
+    </footer>
+    <script>
+        function redirinstagram(){
+            window.location.href = "https://www.instagram.com/keiku.box/"
+        }
+
+        function redirwhatsapp(){
+            window.location.href = "https://wa.me/+6289656513350"
+        }
+    </script>
+</body>
+</html>
